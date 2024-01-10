@@ -26,5 +26,12 @@ namespace UILayer.Controllers
 
             return View();
         }
+
+        public ActionResult showDetail()
+        {
+            ViewBag.Message = "show";
+
+            return View();
+        }
     }
 }
